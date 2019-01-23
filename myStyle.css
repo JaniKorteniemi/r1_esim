@@ -1,0 +1,34 @@
+#fbod{
+  margin-left: 100px;
+}
+h1{
+  color: red;
+  font-size: 30pt;
+}
+
+.myFontColor{
+  color: blue;
+
+}
+.myList{
+  background-color: yellow;
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 150px;
+  margin-left: 30px;
+  border-style: solid;
+}
+
+.blueWord{
+  color: blue;
+  font-style: italic;
+}
+
+#footer{
+  background-color: black;
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+
+}

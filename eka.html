@@ -3,45 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title>Sivu 1</title>
+    <link rel="stylesheet" href="myStyle.css">
   </head>
   <body>
-    <h1>Esimerkki</h1>
-    <p>
-      Numerointi lista
-      <ol>
-        <li>Suomi</li>
-        <li>Ruotsi</li>
-        <li>Norja</li>
-      </ol>
-    </p>
-    <p>
-      Numeroimaton lista
-      <ul>
-        <li>Oulu</li>
-        <li>Helsinki</li>
-        <li>Tampere</li>
-      </ul>
-    </p>
-    <h2>Linki</h2>
-    <p>
-      Oamk:n www-sivun voit avata <a href="http://www.oamk.fi/">tästä</a>
-      <br>
-      Avaa sivun uuteen välilehteen <a href="http://www.oamk.fi/" target="_blank">tästä</a>
-    </p>
-    <h2>Taulukko</h2>
-    <p>
-     <table border="1">
-       <thead>
-         <tr>
-           <th>Maa</th> <th>Pääkaupunki</th>
-         </tr>
-       </thead>
-       <tbody>
-         <tr><td>Suomi</td> <td>Helsinki</td></tr>
-         <tr><td>Ruotsi</td> <td>Tukholma</td></tr>
-         <tr><td>Norja</td> <td>Oslo</td></tr>
-       </tbody>
-     </table>
-    </p>
+    <div id="fbod">
+      <h1>Esimerkki</h1>
+      <div class="myList">
+        <p>
+          Numerointi <b>lista</b>
+          <ol>
+            <li>Suomi</li>
+            <li>Ruotsi</li>
+            <li>Norja</li>
+          </ol>
+        </p>
+        <p>
+          Numeroimaton <b>lista</b>
+          <ul>
+            <li>Oulu</li>
+            <li>Helsinki</li>
+            <li>Tampere</li>
+          </ul>
+        </p>
+      </div>
+      <h2 class="myFontColor">Linki</h2>
+      <p>
+        <span class="blueWord">Oamk:n</span> www-sivun voit avata <a href="http://www.oamk.fi/">tästä</a>
+        <br>
+        Avaa sivun uuteen välilehteen <a href="http://www.oamk.fi/" target="_blank">tästä</a>
+      </p>
+      <h2>Taulukko</h2>
+      <p>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Maa</th> <th>Pääkaupunki</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Suomi</td> <td>Helsinki</td></tr>
+            <tr><td>Ruotsi</td> <td>Tukholma</td></tr>
+            <tr><td>Norja</td> <td>Oslo</td></tr>
+          </tbody>
+        </table>
+      </p>
+    </div>
+    <div id="footer">
+      <hr>
+      <h3>TVT18SPO ryhmä1 harjoitus</h3>
+    </di>
   </body>
 </html>
