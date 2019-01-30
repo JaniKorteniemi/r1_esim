@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <h2>Kertausta</h2>
+    <p>
+      <label for="kaupunki">Kotikaupunki</label>
+      <input type="text" id="kaupunki" value="">
+      <button type="button" onclick="saveCity()">Tallenna</button>
+    </p>
+
+  </body>
+  <script type="text/javascript">
+    function saveCity()
+    {
+      var city=document.getElementById('kaupunki').value;
+      console.log(city);
+    }
+  </script>
+</html>
